@@ -1,8 +1,8 @@
 {
-  "name": "daisyui-snippets",
-  "publisher": "mrniamster",
+  "name": "daisyui-vue-snippets",
+  "publisher": "mona",
   "publishConfig": {
-    "tag": "daisyUI,snippets,daisyUI extension,daisyUI latest"
+    "tag": "daisyUI,snippets,daisyUI extension,daisyUI latest, vue"
   },
   "icon": "128.ico",
   "displayName": "daisyui snippets",
@@ -12,7 +12,7 @@
     "vscode": "^1.79.0"
   },
   "repository": {
-    "url": "https://github.com/mrniamster/daisyui-snippets-vscode.git"
+    "url": "https://github.com/Monasterolo21/daisyui-snippets-vue"
   },
   "categories": [
     "Snippets"
@@ -25,6 +25,10 @@
       },
       {
         "language": "html",
+        "path": "./snippets/javascript.json"
+      },
+      {
+        "language": "vue",
         "path": "./snippets/javascript.json"
       }
     ]
